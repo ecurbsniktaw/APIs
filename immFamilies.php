@@ -60,19 +60,19 @@ while ($thisFamily = $stmt->fetch()) // For each record in the immFamily table
           $aryPerson['name'] = $thisPerson['name'];
           
           $aryPerson['bornDate']    = $thisPerson['bornDate'];
-		$aryPerson['bornDateMod'] = $thisPerson['bornDateMod'];
+          $aryPerson['bornDateMod'] = $thisPerson['bornDateMod'];
           $aryPerson['bornWhere']   = $thisPerson['bornWhere'];
           
-		$aryPerson['arvDate']     = $thisPerson['arvDate'];
-		$aryPerson['arvDateMod']  = $thisPerson['arvDateMod'];
+          $aryPerson['arvDate']     = $thisPerson['arvDate'];
+          $aryPerson['arvDateMod']  = $thisPerson['arvDateMod'];
 		  
-		$aryPerson['diedDate']    = $thisPerson['diedDate'];
-		$aryPerson['diedDateMod'] = $thisPerson['diedDateMod'];
+          $aryPerson['diedDate']    = $thisPerson['diedDate'];
+          $aryPerson['diedDateMod'] = $thisPerson['diedDateMod'];
 		  
-		$aryPerson['diedWhere'] = $thisPerson['diedWhere'];
+          $aryPerson['diedWhere'] = $thisPerson['diedWhere'];
           $aryPerson['picURL']    = $thisPerson['picURL'];
-		$aryPerson['bio']       = $thisPerson['bio'];
-		$jPerAry[] = (object)$aryPerson;
+          $aryPerson['bio']       = $thisPerson['bio'];
+          $jPerAry[] = (object)$aryPerson;
      }
      $ary['people'] = $jPerAry;
 
