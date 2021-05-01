@@ -13,10 +13,7 @@ header('Access-Control-Allow-Origin: *');
 
 //--------------------------------------------------------------------
 // Open the ancestry database
-$host    = 'db122b.pair.com';
-$db      = 'ecurb_ancestry';
-$user    = 'ecurb_11';
-$pass    = 'FumGKbdn';
+include 'params.php';
 $charset = 'utf8mb4';
 $dsn     = "mysql:host=$host;dbname=$db;charset=$charset";
 $options = [
